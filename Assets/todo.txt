@@ -1,0 +1,7 @@
+- add enviroment (grass, props, river)
+- add gizmos to (blowtorch)
+- add multiplayer
+- add steam integration
+- add music
+- check good player and quality settings on youtube
+- replace public variables with serialized private ones

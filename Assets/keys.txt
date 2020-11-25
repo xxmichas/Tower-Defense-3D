@@ -1,0 +1,7 @@
+W,A,S,D - movement
+Spacebar - jump
+E - shop
+R - tower menu
+U - hide ui
+F - show tower range
+C - top-down view camera

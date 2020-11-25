@@ -1,0 +1,121 @@
+Normal Tower {
+	Cost: 100
+	Range: 2.0
+	AttackSpeed: 1/s
+	Damage: 50 x2 (Two Bullets per shot)
+	DPS: 100
+}
+
+Normal Tower Upgraded {
+	Cost: 100 + 150
+	Range: 3.0
+	AttackSpeed: 1.5/s
+	Damage: 50 x2 (Two Bullets per shot)
+	DPS: 150
+}
+
+Cannon Tower {
+	Cost: 250
+	Range: 2.0
+	AttackSpeed: 0.8/s
+	Damage: 100 AOE
+	DPS: 80 AOE
+	AOE_Radius: 2
+}
+
+Cannon Tower Upgraded {
+	Cost: 250 + 325
+	Range: 3.0
+	AttackSpeed: 1/s
+	Damage: 200 AOE
+	DPS: 200 AOE
+	AOE_Radius: 2.5
+}
+
+Laser Tower {
+	Cost: 150
+	Range: 3.0
+	AttackSpeed: 50/s
+	Damage: 2
+	DPS: 100
+}
+
+Laser Tower Upgraded {
+	Cost: 150 + 225
+	Range: 4.0
+	AttackSpeed: 50/s
+	Damage: 4
+	DPS: 200
+}
+
+Arrow Tower {
+	Cost: 300
+	Range: ~20 (in straight line)
+	AttackSpeed: 0.3/s
+	Damage: 50 (in straight line)
+	DPS: 16,7 (in straight line)
+	Max_Targets: 3
+}
+
+Arrow Tower Upgraded {
+	Cost: 300 + 450
+	Range: ~20 (in straight line)
+	AttackSpeed: 0.5/s
+	Damage: 50 (in straight line)
+	DPS: 25 (in straight line)
+	Max_Targets: 5
+}
+
+Blowtorch Tower {
+	Cost: 150
+	Range: 1.25 (in a cone)
+	AttackSpeed: 50/s
+	Damage: 2 (in a cone)
+	DPS: 100 (in a cone)
+}
+
+Blowtorch Tower Upgraded {
+	Cost: 150 + 225
+	Range: 1.5 (in a cone)
+	AttackSpeed: 50/s
+	Damage: 3 (in a cone)
+	DPS: 150 (in a cone)
+}
+
+Frost Tower {
+	Cost: 200
+	AttackSpeed: const
+	AOE_Radius: 3
+	Slow: 30%
+}
+
+Frost Tower Upgraded {
+	Cost: 200 + 300
+	AttackSpeed: const
+	AOE_Radius: 4
+	Slow: 50%
+}
+
+Cooldown Tower {
+	Cost: 100
+	Pickup_Cooldown_Reduction: 30%
+	Range: Global
+}
+
+Cooldown Tower Upgraded {
+	Cost: 100 + 150
+	Pickup_Cooldown_Reduction: 50%
+	Range: Global
+}
+
+Money Tower {
+	Cost: 200
+	Money_Bonus: 1
+	Range: Global
+}
+
+Money Tower Upgraded {
+	Cost: 200 + 300
+	Money_Bonus: 3
+	Range: Global
+}
